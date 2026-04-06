@@ -1,8 +1,11 @@
 import React from 'react'
 
-const LifelineBadge = () => {
+const LifelineBadge = ({ count }) => {
     return (
-        <div>LifelineBadge</div>
+        <div className="alert alert-info">
+            Lifelines Reamaining:
+            <strong>{count}</strong>
+        </div>
     )
 }
 

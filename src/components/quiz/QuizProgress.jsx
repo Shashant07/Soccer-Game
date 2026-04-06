@@ -1,8 +1,8 @@
 import React from 'react'
 
-const QuizProgress = () => {
+const QuizProgress = ({ current, total }) => {
     return (
-        <div>QuizProgress</div>
+        <div className='mb-3'>Question {current + 1} of {total}</div>
     )
 }
 
