@@ -21,7 +21,7 @@ export default function PhaserGame(parentId, onGameComplete) {
 
             default: "arcade",
 
-            arcade: { debug: true },
+            arcade: { debug: false },
 
         },
 
