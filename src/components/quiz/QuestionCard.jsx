@@ -25,7 +25,7 @@ const QuestionCard = ({ question, options, onSubmit }) => {
                 ))}
             </div>
 
-            <button className='"submit-btn'
+            <button className='submit-btn'
                 disabled={selected === null}
                 onClick={handleSubmit}>
                 Submit Answer

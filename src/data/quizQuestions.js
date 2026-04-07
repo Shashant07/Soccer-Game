@@ -1,4 +1,4 @@
-const quizQuestions = {
+export const quizQuestions = {
     easy: [
         {
             id: 1,

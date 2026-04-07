@@ -1,16 +1,127 @@
-# React + Vite
+# ⚽ Soccer Quiz Game
+A 2D interactive soccer game built using **React + Phaser 3** that combines gameplay with quiz-based assessment.
+---
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🚀 Project Overview
 
-Currently, two official plugins are available:
+This project is a browser-based soccer mini-game where:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* The user competes against an AI opponent
+* Scoring goals earns **lifelines**
+* Lifelines can be used in a quiz assessment
+* Users must score **80% or higher** to successfully complete the assessment
 
-## React Compiler
+It blends **game mechanics + learning evaluation** into a single experience.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* ⚛ **React** – UI & Screen Management
+* 🎮 **Phaser 3** – 2D Game Engine
+* 🎨 Bootstrap – Styling
+* 🔊 Phaser Arcade Physics – Game physics & collision
+
+---
+
+## 🎯 Game Objective
+
+* Score goals against the AI
+* Earn lifelines
+* Use lifelines to retry quiz questions
+* Achieve **minimum 80%** quiz score to pass
+
+---
+
+## 🎮 Controls
+
+### Movement
+
+* `W / A / S / D`
+* `Arrow Keys`
+* Mouse: **Left Click + Drag**
+
+### Hit Ball
+
+* Hold **Spacebar**
+
+---
+
+## 🧠 Lifeline System
+
+* ⚽ Each goal = **1 Lifeline**
+* ❓ Lifelines allow quiz retries
+* 🎯 Use strategically to maximize score
+
+---
+
+## 🏆 Winning Criteria
+
+To successfully complete the assessment:
+
+* Achieve **80% or higher** in the quiz
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1️⃣ Clone the Repository
+
+```bash
+git clone <your-repo-url>
+cd soccer-quiz-game
+```
+
+### 2️⃣ Install Dependencies
+
+```bash
+npm install
+```
+
+### 3️⃣ Start Development Server
+
+```bash
+npm run dev
+```
+
+App runs on:
+
+```
+http://localhost:5173
+```
+
+---
+
+## 🧩 Key Features
+
+* AI opponent with prediction logic
+* Arcade physics collision system
+* Goal detection & score tracking
+* Countdown match timer
+* Quiz integration
+* Lifeline-based retry mechanism
+* Pause/Resume functionality
+* Responsive canvas scaling
+
+---
+
+## 🔮 Future Improvements
+
+* Difficulty levels (Easy / Medium / Hard)
+* Sound toggle option
+* Mobile optimized controls
+* Leaderboard system
+* Backend score tracking
+
+---
+
+## 📜 License
+
+This project is for educational and assessment purposes.
+
+---
+
+## 🙌 Author
+
+Built with React & Phaser 3
+Game-based learning experience ⚽🎮

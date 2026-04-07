@@ -1,5 +1,4 @@
 import { useContext } from 'react'
-import './App.css'
 import { ScreenContext } from './context/ScreenContext';
 import { SCREENS } from './config/screens'
 import Instructions from './pages/Instructions';
@@ -14,6 +13,7 @@ function App() {
 
   return (
     <>
+      {console.log(screen)}
       {screen === SCREENS.LANDING && <Landing />}
       {screen === SCREENS.INSTRUCTIONS && <Instructions />}
       {screen === SCREENS.GAME && <Game />}
