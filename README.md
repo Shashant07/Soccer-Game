@@ -115,6 +115,11 @@ http://localhost:5173
 
 ---
 
+## Live Link:
+https://soccer-quiz-game.planet1.in
+
+---
+
 ## 📜 License
 
 This project is for educational and assessment purposes.
