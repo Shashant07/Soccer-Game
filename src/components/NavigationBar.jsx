@@ -39,7 +39,7 @@ const NavigationBar = () => {
 
     return (
         <nav className='navbar navbar-dark bg-dark px-4'>
-            <span className='navbar-brand fw-boald'>Soccer Lifeline Game</span>
+            <span className='navbar-brand fw-boald'>Soccer Quiz Game</span>
 
             <div className='ms-auto d-flex align-items-center gap-3'
                 style={{ color: "white" }}

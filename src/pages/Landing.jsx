@@ -25,7 +25,7 @@ export default function Landing() {
 
     return (
         <div className="container text-center mt-5">
-            <h1> Soccer Lifeline Game</h1>
+            <h1> Soccer Quiz Game</h1>
             <p>Score goals. Earn lifelines. Pass the quiz.</p>
             <button
                 className="btn btn-primary btn-sm px-5"
